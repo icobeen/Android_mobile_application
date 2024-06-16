@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">projet mobile</string>
+    <string name="titre_memory_game">Memory Game</string>
+    <string name="_0">0</string>
+    <string name="counter">3</string>
+    <string name="_high_score">0</string>
+    <string name="start">start</string>
+    <string name="Game4Titre">Memory Game</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:text="Game world"
+            android:fontFamily="@font/genty"
+            android:textColor="@color/white">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="110dp"
+            android:onClick="Xolunch"
+            android:layout_height="110dp"
+            android:src="@drawable/tic"
+            android:background="@drawable/shape">
+        </ImageView>
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="Btlunch"
+            android:src="@drawable/brr"
+            android:background="@drawable/shape">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="MemoryGamelunch"
+            android:src="@drawable/memory1"
+            android:background="@drawable/shape">
+        </ImageView>
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="MatchTileslunch"
+            android:src="@drawable/tile"
+            android:background="@drawable/shape">
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>
